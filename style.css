@@ -2,7 +2,7 @@ html, body {
     height: 100%;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: white;
+    background-color: lightgray;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,15 +15,20 @@ html, body {
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
     text-align: center;
     box-shadow:0 0 10px black;
-    border: 1px solid #00BFFF;
+    /* border: 1px solid #00BFFF; */
 
     h2 {
-        color: #00BFFF;
+        color: white;
+        background: #00BFFF;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow:0 0 5px black;
+        border: gray solid 1px;
     }
 
     input {
         padding: 10px;
-        border-radius: 10px;
+        border-radius: 5px;
         margin: 5px;
         outline: none;
         border: 1px solid #00BFFF;
@@ -32,7 +37,7 @@ html, body {
 
     button {
         padding: 5px;
-        border-radius: 5px;
+        border-radius: 15px;
         border: none;
         background-color: #00BFFF;
         color: white;
